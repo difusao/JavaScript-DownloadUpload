@@ -1,5 +1,5 @@
 ## DownloadUpload
-> Servidor de Downloads and Uploads on port `3000`.
+> Javascript Server Downloads and Uploads on port `3000`.
 
 ## Requisitos Mínimos
 - NodeJS v10.21.0
