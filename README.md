@@ -24,4 +24,11 @@
 - Run command in console to environment protuction: `npm run start`.
 
 ## Screen Dump
+
+> Downloads show list files
+
 ![img1.png](public/imgs/img1.png)
+
+> Form Upload files
+
+![img2.png](public/imgs/img2.png)
