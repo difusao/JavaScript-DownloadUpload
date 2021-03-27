@@ -35,4 +35,4 @@
 
 > Show in mobile.
 
-![img3.png](public/imgs/img3.png)
+<img src="public/imgs/img3.png" width="25%" height="25%">
