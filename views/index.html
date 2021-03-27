@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UPLOAD</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <script>
+        document.getElementById("file").onchange = function () {
+            document.getElementById("form").submit();
+        }
+    </script>
+    <div>
+        <div class="container">
+            <p></p>
+        </div>
+        <div class="container">
+            <form action="/send" method="POST" enctype="multipart/form-data">
+
+                <label for="inputs">Upload</label>
+                <div class="input-group">
+                    <div class="custom-file">
+                        <input type="file" name="file" class="custom-file-input" id="file"
+                            aria-describedby="inputGroupFileAddon04" onchange="form.submit()">
+                        <label class="custom-file-label" for="inputGroupFile04">Selecione um arquivo</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <p>Voltar para a lista de <a href="/" class="pe-none" tabindex="-1" aria-disabled="true">Downloads</a>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
