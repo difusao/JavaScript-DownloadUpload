@@ -13,4 +13,4 @@
 - Run command in console to environment protuction: `npm run start`
 
 ## Screen Dump
-- ![img1.png](public/imgs/img1.png)
+![img1.png](public/imgs/img1.png)
